@@ -1,0 +1,32 @@
+.result{
+    background: transparent linear-gradient(180deg, #01C99B 0%, #1B97B3 50%, #3F4FD8 100%) 0% 0% no-repeat padding-box;
+    min-height: 100vh;
+    height: 100%;
+    padding: 49px 65px 0 65px;
+
+    display: flex;
+    justify-content: center;
+}
+.resultContainer{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    box-shadow: 0px 0px 10px #5FBB9780;
+    border-radius: 50px;
+
+    margin-bottom: 35px;
+}
+.link{
+    text-align: center;
+    font: normal normal normal 27px/36px 'test-buch';
+    letter-spacing: 0px;
+    color: #080708;
+
+    background: #FCEFF9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #080F0F80;
+    border-radius: 50px;
+
+    margin-top: 20px;
+    padding: 15px 36px;
+}

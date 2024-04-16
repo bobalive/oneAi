@@ -1,0 +1,42 @@
+.cardContainer{
+    width: 350px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+.imageContainer{
+    width: 350px;
+    height: 350px;
+
+    overflow: hidden;
+    position: relative;
+
+    background: #EEE5E900 0% 0% no-repeat padding-box;
+    box-shadow: inset 3px 3px 6px #EEE5E9;
+    border: 3px solid #EEE5E9;
+    border-radius: 20px;
+
+}
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: inset(0 0 0 0);
+    animation: cycle 5s linear infinite;
+}
+
+@keyframes cycle {
+    0% {
+        clip-path: inset(0 0 0 0);
+    }
+    50% {
+        clip-path: inset(0 100% 0 0);
+    }
+    100% {
+        clip-path: inset(0 0 0);
+    }
+}

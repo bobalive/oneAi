@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'sf-regular';
+    src: url('assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'sf-thin';
+    src: url('assets/fonts/SF-Pro-Display-Thin.otf') format('opentype');
+}
+@font-face {
+    font-family: 'monsterrat-black';
+    src: url('assets/fonts/Montserrat-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'test-craft';
+    src: url('assets/fonts/Test-Kraft.otf') format('opentype');
+}
+@font-face {
+    font-family: 'test-buch';
+    src: url('assets/fonts/test-soehne-buch.woff2') format('woff');
+}
+@font-face {
+    font-family: 'test-dreiviertlett';
+    src: url('assets/fonts/test-soehne-dreiviertelfett.woff2') format('woff');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}

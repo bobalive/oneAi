@@ -1,0 +1,7 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent linear-gradient(180deg, #6600FF 0%, #00CC99 100%) 0% 0% no-repeat padding-box;
+}

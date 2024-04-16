@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    padding: 19px 34px;
+    background: #FCEFF9 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 50px 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    text-align: center;
+    font: normal normal 900 35px/43px 'monsterrat-black';
+    letter-spacing: 0px;
+    color: #080708;
+}
+.button{
+    padding: 5px 20px;
+    text-align: center;
+    font: normal normal normal 19px/25px 'test-craft';
+    letter-spacing: 0px;
+    color: #6600FF;
+
+    box-shadow: 0px 0px 10px #6600FF66;
+    border: 2px solid #6600FF;
+    border-radius: 50px;
+
+    cursor: pointer;
+}

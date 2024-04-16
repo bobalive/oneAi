@@ -1,0 +1,15 @@
+.cards{
+    margin:43px 0 ;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+@media (max-width: 950px ) {
+    .cards{
+        justify-content: center;
+    }
+}

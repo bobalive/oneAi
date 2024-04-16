@@ -1,0 +1,62 @@
+.login{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.2s;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+
+.login.active{
+    opacity: 1;
+    z-index: 10;
+}
+.container{
+    height: 100vh;
+
+    display: none;
+
+    margin: 0 62px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container.active{
+    display: flex;
+}
+.cancel{
+    position: absolute;
+    top: 22px;
+    right: 62px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    background: #FCEFF9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #08070880;
+    border: 2px solid #080708;
+    border-radius: 30px;
+
+    text-align: left;
+    font: normal normal normal 25px/33px 'test-buch';
+    letter-spacing: 0px;
+    color: #080708;
+
+    outline: none;
+
+    padding: 11px 20px;
+    margin-bottom: 20px;
+}
