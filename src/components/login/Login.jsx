@@ -8,11 +8,11 @@ export const Login =({isOpen , setIsOpen})=>{
         if(isOpen){
             document.body.style.overflow = 'hidden'
             const login = document.querySelector('.'+s.login)
-            const container = document.querySelector('.'+s.container)
+            const form = document.querySelector('.'+s.form)
             login.addEventListener('click' ,(e)=>{
                 setIsOpen(false);
             })
-            container.addEventListener('click' ,(e)=>{
+            form.addEventListener('click' ,(e)=>{
                 e.stopPropagation()
             })
         }else {
